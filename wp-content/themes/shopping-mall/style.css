@@ -1,0 +1,164 @@
+/*
+Theme Name: Shopping Mall
+Author: ceylonthemes
+Author URI: https://www.ceylonthemes.com
+Version: 1.1.4
+Template: ecommerce-star
+Tested up to: 5.6.1
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description: Shopping Mall is a Free eCommerce WordPress theme that comes with a pixel-perfect design and extensive functionality for eCommerce sites. The theme has features like Header Ad, Featured Slider, Featured Content, Header customization, Breadcrumb, WooCommerce Ready, YITH Wishlist compare and uick view Support, and more are included in Shopping Mall. This theme is extremely easy to use and requires zero coding knowledge.
+Text Domain: shopping-mall
+Tags: e-commerce, blog, theme-options, full-width-template, one-column, two-columns, portfolio, left-sidebar, right-sidebar, flexible-header, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready
+*/
+
+a {
+
+    color: #5e1b01;
+
+}
+
+#secondary .widget-title {
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0 8px 0 15px;
+	position: relative;
+	text-transform: uppercase;
+	width: auto;
+	height: 40px;
+	display: inline-block;
+	background-color: #ff6c14;
+	color: white;
+	border-bottom: 0px;
+}
+
+#secondary .widget-title:before {
+    width: 0;
+    position: absolute;
+    right: -30px;
+    top: 0px;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 0 0px 30px;
+    content: "";
+	border-color: transparent transparent transparent #ff6c14;
+}
+
+.wp-calendar-table {
+	width:100%;
+}
+.widget .adv-recent-posts a img {
+	max-width:120px;
+}
+
+#secondary.woocomemrce-widgets .widget-title {
+    margin-bottom: 10px;
+}
+
+#secondary .widget {
+    padding: 0px 15px 15px 10px;
+    border: 1px solid #DBDBDB;
+}
+
+#secondary.woocomemrce-widgets .widget-title {
+    border-bottom: initial;
+    line-height: 18px;
+}
+
+#secondary.woocomemrce-widgets .woocommerce.widget_product_search {
+	padding-top:15px;
+}
+
+#secondary .widget ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 5px;
+}
+
+#secondary .widget_search {
+	border:0px;
+}
+
+.my-yith-wishlist .yith-wcwl-add-button .add_to_wishlist::before {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #e6e6e696;
+}
+
+.entry-summary p a.more-link {
+	box-shadow:initial;
+	border: 1px solid #f98000;
+	border-radius: 24px;
+}
+
+.wp-block-search .wp-block-search__input {
+
+    border-radius: 0px;
+}
+
+/* accesibility */
+
+.entry-container .entry-summary .more-link::after {
+    content: "";
+}
+
+.entry-content p a, 
+.entry-content dd a,
+.entry-content table a,
+.entry-header .edit-link a, 
+.entry-summary p a, 
+.taxonomy-description a, 
+.logged-in-as a, 
+.comment-content a, 
+.pingback .comment-body > a, 
+.textwidget a, 
+.entry-footer a:hover, 
+.site-info a:hover,
+article .entry-content a {
+   box-shadow: 0 1px 0 0 #e8e8e8;
+}
+
+.comments-area a {
+ box-shadow: initial;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation a {
+    box-shadow: initial;
+}
+
+.entry-summary .more-link {
+	padding: 0px;
+	border: 0px;
+	border-radius: 3px;
+	background-color: #f98000;
+	color: #fff;
+	padding: 10px 8px;
+}
+
+.entry-summary .more-link:hover,
+.entry-summary .more-link:focus {
+	background-color:#000000;
+	color:#FFFFFF;
+}
+
+.site-branding a {
+    text-decoration: none;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    font-weight: 700;
+    font-size: 1.7rem;
+
+}
+
+.main-navigation a {
+    display: block;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    letter-spacing: ;
+    line-height: 140%;
+    font-size: 16px;
+    font-weight: 500;
+}
